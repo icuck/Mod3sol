@@ -2,14 +2,14 @@ body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
     color: #1a1a1a;
-    background-color: #c5f7fc;
+    background-color: #599e4b;
 }
 
 
 /** HEADER **/
 
 #header-nav {
-    background-color: #4fd0ff;
+    background-color: #c98715;
     border-radius: 0;
     border: 0;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .navbar-brand h1 {
-    color: #003447;
+    color: #7d1913;
     font-family: 'Abril Fatface', cursive;
     font-weight: bolder;
     font-size: 1.8em;
@@ -41,11 +41,11 @@ body {
 
 .navbar-brand a:hover {
     text-decoration: none;
-    text-shadow: 0.75px 0.75px 0.75px #182e36;
+    text-shadow: 1px 1px 1px #fe9797;
 }
 
 #nav-list {
-    background-color: #75daff;
+    background-color: #e4af34;
 }
 
 #nav-list a {
@@ -91,10 +91,45 @@ body {
 #chicken-tile, #beef-tile, #sushi-tile {
     width: 100%;
     padding: 20px;
-    background-color: #d9fbff;
+    background-color: #99ed7b;
     margin-bottom: 60px;
-    box-shadow: 0 0 80px #75b8bf;
+    box-shadow: 0 0 80px #18580b;
 }
+
+
+/** END HOME PAGE **/
+
+/* 
+-----------------------------
+---------ANIMATIONS----------
+-----------------------------
+
+*/
+
+
+h1 {
+  text-align: center;
+  overflow: hidden;
+  border-right: .15em solid transparent;
+  white-space: nowrap;
+  animation: 
+    typing-fx 3.5s steps(50, end),
+    cursor 0.5s step-end 8;
+}
+
+/* the typing*/
+@keyframes typing-fx {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
+@keyframes cursor {
+  from, to { border-color: transparent }
+  50% { border-color: dimgray; }
+}
+
+
 
 
 /** END HOME PAGE **/
